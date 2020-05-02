@@ -129,7 +129,7 @@ a.active {
   cursor: pointer;
 }
 .nav-content-section-1 .home-top-bg {
-  background: url("../images/background/home-1-bg-top.png") no-repeat left;
+  background: url("../background/home-1-bg-top.png") no-repeat left;
   background-size: cover;
   padding-bottom: 1069px;
 }
@@ -289,7 +289,7 @@ a.active {
   color: #727272;
 }
 .home-1-content-section-main-2 .section-6-des-img {
-  background: url("../images/background/home-page-1-bg-1.jpg") no-repeat center;
+  background: url("../background/home-page-1-bg-1.jpg") no-repeat center;
   background-size: cover;
   padding-bottom: 586px;
 }
@@ -331,7 +331,7 @@ a.active {
   margin: 0;
 }
 .home-1-speech {
-  background: url("../images/background/home-page-1-bg-2.jpg") no-repeat center;
+  background: url("../background/home-page-1-bg-2.jpg") no-repeat center;
   background-size: cover;
   width: 100%;
   padding-top: 230px;
@@ -481,7 +481,7 @@ a.active {
   border-bottom: 1px solid #6182A3;
 }
 .owl-carousel-slider-comments {
-  background: url("../images/background/home-page-1-bg-4.jpg") no-repeat center;
+  background: url("../background/home-page-1-bg-4.jpg") no-repeat center;
   background-size: cover;
   width: 100%;
 }
@@ -799,7 +799,7 @@ a.active {
 }
 .home-right-sidebar-portfolio {
   margin-top: 50px;
-  background: url("../images/home-two/potfolio-bg.png") no-repeat;
+  background: url("../home-two/potfolio-bg.png") no-repeat;
   background-size: cover;
   background-position: center center;
   padding-top: 160px;
@@ -906,7 +906,7 @@ a.active {
   padding-bottom: 98px;
 }
 .owl-carousel-slider-comments-home-2 .owl-carousel-bg-home-2 {
-  background: url("../images/home-two/comment-slider-bg.png") no-repeat center;
+  background: url("../home-two/comment-slider-bg.png") no-repeat center;
   background-size: cover;
   width: 100%;
 }
@@ -937,7 +937,7 @@ a.active {
   04_pages_about.html
 ************************/
 .about-us-top-bg {
-  background: url("../images/background/about-us--bg-1.jpg") no-repeat left;
+  background: url("../background/about-us--bg-1.jpg") no-repeat left;
   background-size: cover;
   margin-top: 170px;
 }
@@ -952,7 +952,7 @@ a.active {
   font-size: 30px;
 }
 .owl-carousel-bg-about {
-  background: url("../images/background/about-us--bg-2.jpg") no-repeat center;
+  background: url("../background/about-us--bg-2.jpg") no-repeat center;
   background-size: cover;
   width: 100%;
 }
@@ -1170,7 +1170,7 @@ a.active {
   right: -15px;
 }
 .owl-carousel-slider-pages-team .owl-carousel-bg-team {
-  background: url("../images/pages-team/slider.jpg") no-repeat center;
+  background: url("../pages-team/slider.jpg") no-repeat center;
   background-size: cover;
   width: 100%;
   margin-bottom: 50px;
@@ -1602,7 +1602,7 @@ a.active {
 }
 .single-blog-post-right .blog-single-social .blog-single-social-img {
   margin-top: 50px;
-  background: url("../images/blog-single-post/about-me/profile-img-2.jpg") no-repeat;
+  background: url("../blog-single-post/about-me/profile-img-2.jpg") no-repeat;
   background-size: cover;
   padding-top: 88px;
   padding-bottom: 101px;
@@ -1710,7 +1710,7 @@ a.active {
   home-blog-psd.html
 ****************************/
 .owl-carousel-slider-blog .owl-carousel-bg {
-  background: url("../images/blog-psd/slider-bg.jpg") no-repeat center;
+  background: url("../blog-psd/slider-bg.jpg") no-repeat center;
   background-size: cover;
   width: 100%;
 }
