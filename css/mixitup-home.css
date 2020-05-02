@@ -1,0 +1,147 @@
+.grid {
+	/*padding: 20px 20px 100px 20px;*/
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: left;
+}
+
+.grid li {
+	display: inline-block;
+	/*width: 440px;*/
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	position: relative;
+}
+
+.grid li.figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid li.figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid .figcaption {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	/*padding: 20px;*/
+	background: rgba(3, 79, 132, 0.80);
+	color: #ed4e6e;
+}
+
+.grid .figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+    margin-top: 23px;
+    font-size: 16px !important;
+}
+
+.grid .figcaption span:before {
+	content: 'by ';
+}
+
+
+
+
+/* Caption Style 4 */
+.cs-style-4 li {
+	-webkit-perspective: 1700px;
+	-moz-perspective: 1700px;
+	perspective: 1700px;
+	-webkit-perspective-origin: 0 50%;
+	-moz-perspective-origin: 0 50%;
+	perspective-origin: 0 50%;
+}
+
+.cs-style-4 li.figure {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.cs-style-4 li.figure > div {
+	overflow: hidden;
+}
+
+.cs-style-4 li.figure img {
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+
+.no-touch .cs-style-4 li.figure:hover img,
+.cs-style-4 li.figure.cs-hover img {
+	/*-webkit-transform: translateX(25%);*/
+	/*-moz-transform: translateX(25%);*/
+	/*-ms-transform: translateX(25%);*/
+	/*transform: translateX(25%);*/
+}
+.no-touch .cs-style-4 li.figure:hover img{
+    transform: scale(1.1);
+}
+.cs-style-4 .figcaption {
+	height: 70%;
+	width: 86%;
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: rotateY(-90deg);
+	-moz-transform: rotateY(-90deg);
+	transform: rotateY(-90deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+    padding-left: 30px;
+}
+
+.no-touch .cs-style-4 li.figure:hover .figcaption,
+.cs-style-4 li.figure.cs-hover .figcaption {
+	opacity: 1;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+.cs-style-4 .figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+
+.no-touch .cs-style-7 li.figure:hover .figcaption h3,
+.no-touch .cs-style-7 li.figure:hover .figcaption span,
+.no-touch .cs-style-7 li.figure:hover .figcaption a,
+.cs-style-7 li.figure.cs-hover .figcaption h3,
+.cs-style-7 li.figure.cs-hover .figcaption span,
+.cs-style-7 li.figure.cs-hover .figcaption a {
+	-webkit-transition: opacity 0.3s 0.2s;
+	-moz-transition: opacity 0.3s 0.2s;
+	transition: opacity 0.3s 0.2s;
+	opacity: 1;
+}
+
+@media screen and (max-width: 31.5em) {
+	.grid {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+	}
+}

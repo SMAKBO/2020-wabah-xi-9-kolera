@@ -1,0 +1,57 @@
+.is-active:before {
+    top: 0;
+}
+
+.is-active span.line {
+    background: none;
+}
+
+.is-active span.line:before,
+.is-active span.line:after {
+    -webkit-transition-delay: 0s, 0.3s;
+    transition-delay: 0s, 0.3s;
+}
+
+.is-active span.line:before {
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.is-active span.line:after {
+    bottom: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.menu-body {
+    background-color: #ffffff;
+    position: fixed;
+    left: -277px;
+    bottom: 0;
+    top: 120px;
+    width: 133px;
+    z-index: 999;
+    -webkit-transition: all 0.25s ease-in-out 0s;
+    transition: all 0.25s ease-in-out 0s;
+}
+
+.menu-body.is-active {
+    left: 0;
+}
+
+.close-icon {
+    border: 2px solid #212121;
+    color: #212121;
+    cursor: pointer;
+    font-size: 18px;
+    height: 49px;
+    margin: 2px;
+    position: absolute;
+    left: 52px;
+    top: -2px;
+    width: 31px;
+    text-align: center;
+    padding-top: 10px;
+}
+
